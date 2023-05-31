@@ -1,18 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <nav class="d-flex justify-space-between py-10">
+    <div class="logo bg-red mx-5 px-1 py-1">logo</div>
+    <div>
+      <router-link class="mx-5" to="/">Day tours</router-link>
+      <router-link class="mx-5" to="/">Multi-day tours</router-link>
+      <router-link class="mx-5" to="/">Attractions</router-link>
+      <router-link class="mx-5" to="/">Themes</router-link>
+    </div>
+  </nav>
+  <router-view />
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
@@ -20,7 +17,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: #2c3e50;
+}
+
+nav {
+  
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+nav a.router-link-exact-active {
 }
 </style>
