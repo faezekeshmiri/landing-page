@@ -29,7 +29,7 @@ export default{
 
 <style>
 .card-container{
-    width: 320px;
+    width: 300px;
     height: 150px;
     background-color: rgb(197, 202, 233, 0.6);
     position: relative;
