@@ -38,5 +38,6 @@ export default{
     position: absolute;
     bottom: 0;
     border-bottom: 2px solid #E53935;
+    cursor: pointer;
 }
 </style>
