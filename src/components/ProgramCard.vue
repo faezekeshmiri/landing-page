@@ -18,6 +18,20 @@
               {{ time }}</span
             >
           </v-card-subtitle>
+          <v-card-actions class="profile">
+            <v-list-item>
+              <template v-slot:prepend>
+                <v-avatar
+                  class="elevation-15"
+                  :image="profile"
+                ></v-avatar>
+              </template>
+      
+              <v-list-item-title>{{name}}</v-list-item-title>
+      
+              <v-list-item-subtitle>{{role}}</v-list-item-subtitle>
+            </v-list-item>
+          </v-card-actions>
         </v-img>
       </v-card>
 </template>
@@ -30,9 +44,17 @@ export default{
         cost: String,
         time: String,
         image: String,
-        guide: String,
+        name: String,
+        role:String,
         profile: String,
         height: Number
     }
 }
 </script>
+
+<style>
+.profile {
+    position: absolute;
+    bottom: 0;
+}
+</style>

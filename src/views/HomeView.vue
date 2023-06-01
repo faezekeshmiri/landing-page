@@ -62,7 +62,8 @@
             :cost="program.cost"
             :time="program.time"
             :image="program.image"
-            :guide="program.guide"
+            :name="program.name"
+            :role="program.role"
             :profile="program.profile"
             :height="index % 2 === 0 ? 250 : 400"
           ></program-card>
@@ -111,7 +112,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
         {
@@ -120,7 +122,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
         {
@@ -129,7 +132,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
         {
@@ -138,7 +142,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
         {
@@ -147,7 +152,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
         {
@@ -156,7 +162,8 @@ export default {
           time: "3 hours",
           image:
             "https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg",
-          guide: "Tim hendricks",
+          name: "Tim Hendricks",
+          role: "City Guide",
           profile: "https://cdn.vuetifyjs.com/images/john.jpg",
         },
       ],
