@@ -16,13 +16,15 @@
         </div>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row justify="center">
       <service-card
         class="mx-2"
         v-for="service in services"
         :key="service.title"
         :title="service.title"
         :icon="service.icon"
+        :description="service.description"
+        :link="service.link"
       ></service-card>
     </v-row>
   </v-container>
@@ -38,9 +40,9 @@ export default {
   data() {
     return {
       services: [
-        { title: "Audio Guid", icon: "mdi-music" },
-        { title: "Programs" },
-        { title: "Hotels & Restaurants", icon: "mdi-home" },
+        { title: "Audio Guide", icon: "mdi-headset", description:'Travel on your own. Use the services of an audio guide.', link: 'Select guide' },
+        { title: "Programs", icon: "mdi-flag", description:'Choose a teravel program that is right for you.', link: 'Select program' },
+        { title: "Hotels & Restaurants", icon: "mdi-home", description:'Book hotels and restaurants at the best prices.',link: 'learn more' },
       ],
     };
   },
