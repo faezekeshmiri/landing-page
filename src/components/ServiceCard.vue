@@ -1,12 +1,14 @@
 <template>
-    <div class="card-container rounded py-2 bg-indigo-lighten-4">
-        <div class="d-flex justify-space-between">
-            <v-list-item>
-                <span class="font-weight-bold text-white">{{title}}</span>
-            </v-list-item>
-            <v-list-item>
-                <v-icon :icon="icon" color="red-darken-1"></v-icon>
-            </v-list-item>
+    <div class="card-container rounded py-2">
+        <div class="card-content">
+            <div class="d-flex justify-space-between">
+                <v-list-item>
+                    <span class="font-weight-bold text-white">{{title}}</span>
+                </v-list-item>
+                <v-list-item>
+                    <v-icon :icon="icon" color="red-darken-1"></v-icon>
+                </v-list-item>
+            </div>
         </div>
     </div>
 </template>
@@ -25,7 +27,7 @@ export default{
 .card-container{
     width: 300px;
     height: 150px;
-    position: relative;
-    overflow: hidden;
+    background-color: rgb(197, 202, 233, 0.6);
 }
+
 </style>

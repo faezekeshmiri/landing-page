@@ -48,6 +48,10 @@ export default {
 </script>
 
 <style>
+.hero{
+  /**background-size: cover;
+  background-image: url(../assets/pexels-pixabay-355887.jpg);**/
+}
 .hero-des {
   width: 40%;
 }
