@@ -1,5 +1,5 @@
 <template>
-  <nav class="d-flex justify-space-between py-10">
+  <nav class="d-flex justify-space-between py-5">
     <div class="logo bg-red mx-5 px-1 py-1">logo</div>
     <div>
       <router-link class="mx-5" to="/">Day tours</router-link>
@@ -8,7 +8,9 @@
       <router-link class="mx-5" to="/">Themes</router-link>
     </div>
   </nav>
-  <router-view />
+  <div>
+    <router-view/>
+  </div>
 </template>
 
 <style>
@@ -21,7 +23,7 @@
 }
 
 nav {
-  
+  border-bottom: 1px solid #CFD8DC;
 }
 
 nav a {
