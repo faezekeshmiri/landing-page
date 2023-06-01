@@ -77,7 +77,7 @@
   padding: 0px;
   margin: 0px;
   background-size: 100% 50%;
-  background-image: url(./assets/pexels-cliford-mervil-2469122.jpg);
+  background-image: url(./assets/bg.png);
 }
 
 nav {
